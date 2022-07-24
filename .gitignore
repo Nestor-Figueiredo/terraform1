@@ -1,4 +1,4 @@
 chave_priv
 chave_pub
 chave_1
-*/.terraform/*
+*.terraform/*
