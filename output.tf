@@ -3,5 +3,5 @@ output "resource_group_name" {
 }
 
 output "public_ip_address" {
-  value = "ssh -i chave.priv azureuser@${azurerm_linux_virtual_machine.myterraformvm.public_ip_address}"
+  value = "ssh -i chave_priv azureuser@${azurerm_linux_virtual_machine.myterraformvm.public_ip_address}"
 }
